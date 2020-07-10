@@ -37,5 +37,7 @@ class CustomUserAdmin(UserAdmin):
         "currency",
         "superhost",
         "is_staff",
-        "is_superuser"
+        "is_superuser",
+        "email_verified",
+        "email_secret",
     )
