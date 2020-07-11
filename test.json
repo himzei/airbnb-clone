@@ -1,0 +1,22 @@
+{
+  "id": 1338321284,
+  "connected_at": "2020-04-19T02:36:14Z",
+  "properties": {
+    "nickname": "조현일",
+    "profile_image": "http://k.kakaocdn.net/dn/cJgeyf/btqCOMKlqpp/GX5KzqMGe959B1m0NaHt3k/img_640x640.jpg",
+    "thumbnail_image": "http://k.kakaocdn.net/dn/cJgeyf/btqCOMKlqpp/GX5KzqMGe959B1m0NaHt3k/img_110x110.jpg"
+  },
+  "kakao_account": {
+    "profile_needs_agreement": False,
+    "profile": {
+      "nickname": "조현일",
+      "thumbnail_image_url": "http://k.kakaocdn.net/dn/lZQYp/btqEzemF6oB/WlaV9PXCWaABsyqn8FcKk0/img_110x110.jpg",
+      "profile_image_url": "http://k.kakaocdn.net/dn/lZQYp/btqEzemF6oB/WlaV9PXCWaABsyqn8FcKk0/img_640x640.jpg"
+    },
+    "has_email": True,
+    "email_needs_agreement": False,
+    "is_email_valid": True,
+    "is_email_verified": True,
+    "email": "himzei@hotmail.com"
+  }
+}
