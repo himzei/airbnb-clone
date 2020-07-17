@@ -125,7 +125,11 @@
                                 {% elif is_booked_bool %}
                                 <span class="rounded bg-teal-200 w-full text-center p1 text-xs text-teal-600 py-2">예약</span>
                                 {% else %}
-                                <span class="bg-gray-200 w-full text-center rounded text-gray-700 p-1 hover:bg-teal-400 hover:font-medium hover:text-white cursor-pointer">{{day}}</span>
+                                <a 
+                                    href="{% url 'reservations:create' room.pk day.year day.month day.number %}"
+                                    class="bg-gray-200 w-full text-center rounded text-gray-700 p-1 hover:bg-teal-400 hover:font-medium hover:text-white cursor-pointer">
+                                    {{day}}
+                                </a>
                                 {% endif %}
                                 
                             {% else %}
