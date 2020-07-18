@@ -6,6 +6,7 @@ verify_ssl = true
 [dev-packages]
 black = "*"
 flake8 = "*"
+awsebcli = "*"
 
 [packages]
 django = "==2.2.5"
@@ -14,6 +15,7 @@ django-countries = "*"
 django-seed = "*"
 django-dotenv = "*"
 requests = "*"
+pipenv-to-requirements = "*"
 
 [requires]
 python_version = "3.7"
