@@ -20,7 +20,11 @@
         {% endif %}
             
 
-            
+        <li class="nav_link"><a href="{% url 'lists:see-favs' %}">Favs</a>
+            {% if user.list.rooms.count > 0 %}
+            <span class="-ml-6 -mt-5 bg-red-500 text-xs text-white block h-5 w-5 rounded aling-middle text-center font-medium rounded-full">{{ user.list.rooms.count }}</span>
+            {% endif %}
+        </li>        
         <li class="nav_link"><a href="{% url 'users:profile' user.pk %}">Profile</a></li>    
         <li class="nav_link"><a href="{% url 'users:logout' %}">Logout</a></li>
     {% else %}
