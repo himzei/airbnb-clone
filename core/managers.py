@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.auth.models import UserManager
 
 
 class CustomReservationManager(models.Manager):
@@ -8,3 +9,7 @@ class CustomReservationManager(models.Manager):
             return self.get(**kwargs)
         except self.model.DoesNotExist:
             return None
+
+
+class CustomUserManager(CustomReservationManager, UserManager):
+    pass
