@@ -1,3 +1,4 @@
+
 [[source]]
 name = "pypi"
 url = "https://pypi.org/simple"
@@ -5,7 +6,7 @@ verify_ssl = true
 
 [dev-packages]
 flake8 = "*"
-awsebcli = "*"
+black = "*"
 
 [packages]
 django = "==2.2.5"
@@ -14,9 +15,7 @@ django-countries = "*"
 django-seed = "*"
 django-dotenv = "*"
 requests = "*"
-pipenv-to-requirements = "*"
-psycopg2 = "*"
-sentry-sdk = "==0.16.1"
+sentry-sdk = "==0.13.2"
 django-storages = "*"
 boto3 = "*"
 
