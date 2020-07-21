@@ -27,7 +27,8 @@ SECRET_KEY = os.environ.get(
     "DJANGO_SECRET", "RM5tR^#6JZkmA45ysN%!Rndm!BWDTorZMFi8lNT6")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = bool(os.environ.get("DEBUG"))
+# DEBUG = bool(os.environ.get("DEBUG"))
+DEBUG = False
 
 ALLOWED_HOSTS = [".elasticbeanstalk.com", "localhost", "127.0.0.1"]
 
@@ -97,7 +98,7 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
-if DEBUG:
+if not DEBUG:
 
     DATABASES = {
         'default': {
